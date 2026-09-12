@@ -25,20 +25,21 @@
 Dưới đây là nội dung hoàn chỉnh để thay phần còn thiếu trong file:
 
 ````markdown
+<!-- filepath: individual-report.md -->
 ## Phase 1 — Scan 5+ problems
 
 | # | Lăng kính | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật |
-|---|---|---|---|---|
+|---:|---|---|---|---|
 | 1 | Lặp lại | Di chuyển từ nhà đến công ty mỗi ngày | Intern | Khoảng 90 phút/ngày, 5 ngày/tuần |
 | 2 | Lặp lại | Viết báo cáo công việc hằng ngày theo cùng một mẫu | Intern, mentor | Mất khoảng 5–10 phút/ngày |
 | 3 | Tốn thời gian | Sắp xếp và dọn dẹp tài liệu, file làm việc | Intern, mentor | Mất khoảng 30–45 phút/tuần |
 | 4 | Tốn thời gian | Lập danh sách công việc cần làm trong ngày | Intern | Mất khoảng 15–30 phút mỗi buổi sáng |
-| 5 | AI có thể tốt hơn | Đọc và phân loại email, tin nhắn công việc | Intern, mentor | Có khoảng 10–20 email/tin nhắn cần kiểm tra mỗi ngày |
+| 5 | AI có thể tốt hơn | Đọc và phân loại email, tin nhắn công việc | Intern, mentor | Có khoảng 10–20 email/tin nhắn mỗi ngày |
 | 6 | AI có thể tốt hơn | Tìm lại tài liệu, hướng dẫn hoặc thông tin cũ | Intern, team | Mất khoảng 10–15 phút mỗi lần tìm kiếm |
-| 7 | Pain từ người khác | Hỏi lại yêu cầu khi nhận task chưa rõ | Intern, người giao việc | Hỏi lại khoảng 1–2 lần mỗi task |
+| 7 | Pain từ người khác | Hỏi lại yêu cầu khi nhận nhiệm vụ chưa rõ | Intern, người giao việc | Hỏi lại khoảng 1–2 lần mỗi nhiệm vụ |
 | 8 | Pain từ người khác | Chậm cập nhật tiến độ cho mentor | Intern, mentor | Có thể trễ cập nhật vào cuối ngày hoặc cuối tuần |
 | 9 | Tốn thời gian | Tổng hợp số liệu hoặc kết quả công việc để báo cáo | Intern, mentor | Mất khoảng 30–60 phút mỗi tuần |
-| 10 | Lặp lại | Cập nhật standup theo cùng một định dạng mỗi sáng | Intern, team | Mất khoảng 5 phút/ngày |
+| 10 | Lặp lại | Cập nhật báo cáo công việc theo cùng một định dạng | Intern, team | Mất khoảng 5 phút/ngày |
 
 **AI đã dùng ở Phase 1:**
 
