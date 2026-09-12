@@ -1,3 +1,6 @@
+Đã sửa phần thông tin cá nhân và Phase 1 có đầy đủ dấu:
+
+````markdown
 # 01 — Individual Problem Scan
 
 > Điền theo Phase 1 + Phase 2 trong `01-worksheet.md`. Tự scan trước, dùng AI sau để phản biện. Không copy ví dụ Weekly Report.
@@ -6,17 +9,14 @@
 
 - Họ và tên: Dao Thi Huyen
 - Mã học viên: 2A202602670
-- Vai trò / bối cảnh (VD: sinh viên năm X, intern PM, ...): Nguoi moi ra truong
-- Công việc hằng tuần (3-5 gạch đầu dòng để soi problem):
-- Di chuyen tu nha len cong ty
-- Viet bao cao daily hang ngay
-- Don dep do dac 
-- Check mail ca nhan
-- Len danh sach cac cong viec can lam trong ngay
+- Vai trò / bối cảnh: Người mới ra trường
+- Công việc hằng tuần:
+  - Di chuyển từ nhà đến công ty
+  - Viết báo cáo hằng ngày
+  - Dọn dẹp đồ đạc và tài liệu
+  - Kiểm tra email cá nhân
+  - Lên danh sách các công việc cần làm trong ngày
 ---
-
-## Phase 1 — Scan 5+ problems (tối thiểu 5, khuyến khích 8-10)
-
 **Cách điền:** mỗi dòng = việc gì + ai chịu + đo bằng gì. Cột `Dấu hiệu thật` bắt buộc có số: mất bao lâu (bấm giờ mấy lần), mấy lần/tuần, bao nhiêu người gặp, log/ticket/quote nào.
 
 | # | Lăng kính (Lặp lại / Tốn thời gian / AI có thể tốt hơn / Pain từ người khác) | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật (số + bằng chứng) |
