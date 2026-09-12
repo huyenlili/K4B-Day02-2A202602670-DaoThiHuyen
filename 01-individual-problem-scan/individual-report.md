@@ -5,7 +5,7 @@
 
 ## Thông tin cá nhân
 
-- Họ và tên: Dao Thi Huyen
+- Họ và tên: Đào Thị Huyền
 - Mã học viên: 2A202602670
 - Vai trò / bối cảnh: Người mới ra trường
 - Công việc hằng tuần:
