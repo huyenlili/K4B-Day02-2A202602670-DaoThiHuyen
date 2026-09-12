@@ -1,6 +1,4 @@
-Đã sửa phần thông tin cá nhân và Phase 1 có đầy đủ dấu:
-
-````markdown
+<!-- filepath: c:\Users\hyo\Downloads\individual-report (1).md -->
 # 01 — Individual Problem Scan
 
 > Điền theo Phase 1 + Phase 2 trong `01-worksheet.md`. Tự scan trước, dùng AI sau để phản biện. Không copy ví dụ Weekly Report.
@@ -16,16 +14,9 @@
   - Dọn dẹp đồ đạc và tài liệu
   - Kiểm tra email cá nhân
   - Lên danh sách các công việc cần làm trong ngày
+
 ---
-**Cách điền:** mỗi dòng = việc gì + ai chịu + đo bằng gì. Cột `Dấu hiệu thật` bắt buộc có số: mất bao lâu (bấm giờ mấy lần), mấy lần/tuần, bao nhiêu người gặp, log/ticket/quote nào.
 
-| # | Lăng kính (Lặp lại / Tốn thời gian / AI có thể tốt hơn / Pain từ người khác) | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật (số + bằng chứng) |
-|---|---|---|---|---|
-#	Lăng kính	Problem quan sát được	Ai chịu ảnh hưởng?	Dấu hiệu thật
-Dưới đây là nội dung hoàn chỉnh để thay phần còn thiếu trong file:
-
-````markdown
-<!-- filepath: individual-report.md -->
 ## Phase 1 — Scan 5+ problems
 
 | # | Lăng kính | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật |
@@ -41,15 +32,16 @@ Dưới đây là nội dung hoàn chỉnh để thay phần còn thiếu trong 
 | 9 | Tốn thời gian | Tổng hợp số liệu hoặc kết quả công việc để báo cáo | Intern, mentor | Mất khoảng 30–60 phút mỗi tuần |
 | 10 | Lặp lại | Cập nhật báo cáo công việc theo cùng một định dạng | Intern, team | Mất khoảng 5 phút/ngày |
 
-**AI đã dùng ở Phase 1:**
+### AI đã dùng ở Phase 1
 
 - Prompt đã hỏi: “Hãy giúp tôi rà soát các công việc lặp lại và tốn thời gian của một intern mới ra trường.”
-- Ý dùng được: Viết báo cáo daily, tìm tài liệu cũ, lập danh sách công việc và hỏi lại yêu cầu task.
-- Ý bỏ vì không phải pain thật: Di chuyển đến công ty là việc lặp lại nhưng khó giải quyết bằng AI trong phạm vi công việc hiện tại.
+- Ý dùng được: Viết báo cáo hằng ngày, tìm tài liệu cũ, lập danh sách công việc và hỏi lại yêu cầu task.
+- Ý bỏ: Di chuyển đến công ty là việc lặp lại nhưng khó giải quyết bằng AI trong phạm vi công việc hiện tại.
 
-**Self-check Phase 1:**
+### Self-check Phase 1
 
-- [x] Đủ 5+ dòng, mỗi dòng có actor và số đo cụ thể
+- [x] Đủ 5+ vấn đề
+- [x] Mỗi vấn đề có người chịu ảnh hưởng và số đo cụ thể
 - [x] Dùng đủ 4 lăng kính
 - [x] Các vấn đề có thời gian hoặc tần suất cụ thể
 
@@ -60,242 +52,83 @@ Dưới đây là nội dung hoàn chỉnh để thay phần còn thiếu trong 
 ### 2.1. Chọn top 3
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
-|---|---|---|---|
-| 1 | Viết báo cáo công việc hằng ngày theo cùng một mẫu | Lặp lại mỗi ngày; có quy trình rõ ràng; có thể giảm thời gian nhập liệu | Mentor có chấp nhận báo cáo được AI hỗ trợ hay không |
-| 2 | Tìm lại tài liệu, hướng dẫn hoặc thông tin cũ | Mất 10–15 phút mỗi lần; ảnh hưởng trực tiếp đến tiến độ task; có thể cải thiện bằng tìm kiếm thông minh | Tài liệu hiện đang nằm ở bao nhiêu nơi khác nhau |
-| 3 | Hỏi lại yêu cầu khi nhận task chưa rõ | Xảy ra 1–2 lần mỗi task; dễ gây chậm tiến độ; có thể chuẩn hóa bằng checklist | Không phải task nào cũng có đủ thông tin ngay từ đầu |
+|---:|---|---|---|
+| 1 | Viết báo cáo công việc hằng ngày theo cùng một mẫu | Lặp lại mỗi ngày, có quy trình rõ ràng và dễ đo lường | Mentor có chấp nhận báo cáo được AI hỗ trợ hay không |
+| 2 | Tìm lại tài liệu, hướng dẫn hoặc thông tin cũ | Mất 10–15 phút mỗi lần và ảnh hưởng đến tiến độ task | Tài liệu hiện nằm ở bao nhiêu nơi khác nhau |
+| 3 | Hỏi lại yêu cầu khi nhận task chưa rõ | Dễ gây chậm tiến độ và có thể chuẩn hóa bằng checklist | Không phải task nào cũng có đủ thông tin ngay từ đầu |
 
 ---
+
+### 2.2. Problem Cards
 
 #### Problem Card #1 — Viết báo cáo công việc hằng ngày
 
-```text
-Problem 1 câu:
-Intern mất 5–10 phút mỗi ngày để viết báo cáo công việc theo cùng một mẫu.
+> **Problem:** Intern mất 5–10 phút mỗi ngày để viết báo cáo công việc theo cùng một mẫu.
+>
+> **Actor:** Intern; mentor là người đọc và phản hồi.
+>
+> **Bottleneck:** Tổng hợp thông tin từ nhiều ghi chú và viết lại theo cùng một định dạng.
+>
+> **Impact:** Mất khoảng 25–50 phút mỗi tuần và có thể quên hoặc thiếu thông tin.
+>
+> **Success metric:** Giảm thời gian viết báo cáo xuống còn 2–3 phút/ngày.
+>
+> **Non-AI alternative:** Dùng biểu mẫu cố định hoặc checklist ghi chú trong ngày.
+>
+> **AI hypothesis:** AI tổng hợp ghi chú thành bản báo cáo theo mẫu; intern kiểm tra trước khi gửi.
 
-Actor:
-Intern; mentor là người đọc và phản hồi.
+#### Problem Card #2 — Tìm lại tài liệu cũ
 
-Thời điểm / bối cảnh:
-Cuối mỗi ngày làm việc.
-
-Current workflow 3-7 bước:
-1. Xem lại các task đã làm trong ngày.
-2. Tìm lại ghi chú hoặc tin nhắn liên quan.
-3. Viết nội dung đã hoàn thành.
-4. Viết khó khăn hoặc vấn đề gặp phải.
-5. Viết kế hoạch cho ngày tiếp theo.
-6. Gửi báo cáo cho mentor.
-
-Bottleneck:
-Tổng hợp thông tin từ nhiều ghi chú và viết lại theo cùng một định dạng.
-
-Impact:
-Mất 5–10 phút/ngày, tương đương khoảng 25–50 phút/tuần.
-Có thể quên task hoặc cập nhật thiếu thông tin.
-
-Success metric:
-Giảm thời gian viết báo cáo xuống còn 2–3 phút/ngày.
-Báo cáo vẫn đủ ba phần: đã làm, khó khăn, kế hoạch tiếp theo.
-
-Non-AI alternative:
-Dùng một biểu mẫu cố định hoặc checklist ghi chú trong ngày.
-
-AI hypothesis:
-AI có thể tổng hợp các ghi chú trong ngày thành bản báo cáo theo mẫu,
-sau đó intern kiểm tra và chỉnh sửa trước khi gửi.
-
-Quick gut:
-[ ] No AI / process fix
-[ ] Rule
-[x] Workflow
-[ ] Agent
-[ ] Chưa biết
-```
-
-**Draft workflow Card #1:**
-
-```text
-CURRENT STATE — 5–10 phút
-
-[Xem lại task: 2'] → [Tìm ghi chú: 2–4'] →
-[Viết lại báo cáo: 2–3'] → [Kiểm tra và gửi: 1']  <-- bottleneck
-
-FUTURE STATE — 2–3 phút
-
-[Ghi chú trong ngày] → [AI tạo bản nháp: <1'] →
-[Intern kiểm tra và chỉnh sửa: 1–2']  <-- human boundary
-
-Fallback:
-Nếu AI thiếu hoặc hiểu sai thông tin, intern dùng mẫu báo cáo cố định
-và tự bổ sung nội dung trước khi gửi mentor.
-```
-
----
-
-#### Problem Card #2 — Tìm lại tài liệu, hướng dẫn hoặc thông tin cũ
-
-```text
-Problem 1 câu:
-Intern mất 10–15 phút mỗi lần tìm tài liệu hoặc hướng dẫn cũ để thực hiện task.
-
-Actor:
-Intern; đôi khi ảnh hưởng đến mentor và các thành viên trong team.
-
-Thời điểm / bối cảnh:
-Khi nhận task mới hoặc cần kiểm tra lại quy trình.
-
-Current workflow 3-7 bước:
-1. Nhớ lại tên hoặc nội dung tài liệu cần tìm.
-2. Tìm trong thư mục máy tính hoặc công cụ làm việc.
-3. Tìm trong tin nhắn và email cũ.
-4. Mở nhiều file để kiểm tra nội dung.
-5. Hỏi mentor hoặc đồng nghiệp nếu chưa tìm thấy.
-6. Đọc tài liệu và áp dụng vào task.
-
-Bottleneck:
-Tài liệu nằm ở nhiều nơi và không có cách tìm kiếm theo nội dung thống nhất.
-
-Impact:
-Mất 10–15 phút mỗi lần tìm kiếm và có thể làm chậm task.
-
-Success metric:
-Tìm được tài liệu phù hợp trong tối đa 5 phút.
-Giảm số lần phải hỏi lại mentor vì không tìm thấy tài liệu.
-
-Non-AI alternative:
-Sắp xếp thư mục thống nhất, đặt tên file theo quy tắc và lập danh mục tài liệu.
-
-AI hypothesis:
-AI có thể tìm kiếm theo câu hỏi tự nhiên và đề xuất tài liệu liên quan,
-nhưng intern vẫn phải kiểm tra nguồn tài liệu.
-
-Quick gut:
-[ ] No AI / process fix
-[ ] Rule
-[x] Workflow
-[ ] Agent
-[ ] Chưa biết
-```
-
-**Draft workflow Card #2:**
-
-```text
-CURRENT STATE — 10–15 phút
-
-[Nhớ từ khóa: 1–2'] → [Tìm nhiều nơi: 5–8'] →
-[Mở và kiểm tra file: 3–5']  <-- bottleneck
-
-FUTURE STATE — 4–5 phút
-
-[Nhập câu hỏi/từ khóa] → [AI đề xuất tài liệu và trích nguồn: 1–2'] →
-[Intern mở và kiểm tra tài liệu: 2–3']  <-- human boundary
-
-Fallback:
-Nếu AI không tìm được hoặc đề xuất sai, sử dụng danh mục thư mục chuẩn
-và hỏi mentor để xác nhận tài liệu chính thức.
-```
-
----
+> **Problem:** Intern mất 10–15 phút mỗi lần tìm tài liệu hoặc hướng dẫn cũ.
+>
+> **Actor:** Intern, mentor và các thành viên trong team.
+>
+> **Bottleneck:** Tài liệu nằm ở nhiều nơi và không có cách tìm kiếm thống nhất.
+>
+> **Impact:** Làm chậm tiến độ task và tăng số lần phải hỏi mentor.
+>
+> **Success metric:** Tìm được tài liệu phù hợp trong tối đa 5 phút.
+>
+> **Non-AI alternative:** Sắp xếp thư mục và đặt tên file theo quy tắc.
+>
+> **AI hypothesis:** AI tìm kiếm theo câu hỏi tự nhiên và đề xuất tài liệu có trích nguồn.
 
 #### Problem Card #3 — Nhận task chưa rõ yêu cầu
 
-```text
-Problem 1 câu:
-Intern phải hỏi lại yêu cầu 1–2 lần cho mỗi task vì thông tin ban đầu chưa đầy đủ.
-
-Actor:
-Intern và người giao việc hoặc mentor.
-
-Thời điểm / bối cảnh:
-Khi nhận task mới qua tin nhắn, email hoặc cuộc họp.
-
-Current workflow 3-7 bước:
-1. Nhận task từ người giao việc.
-2. Đọc và cố gắng hiểu mục tiêu.
-3. Xác định các thông tin còn thiếu.
-4. Hỏi lại người giao việc.
-5. Chờ phản hồi.
-6. Bắt đầu thực hiện task.
-7. Hỏi lại nếu phát hiện thêm điểm chưa rõ.
-
-Bottleneck:
-Task chưa có đủ thông tin về mục tiêu, đầu ra, deadline và tiêu chí hoàn thành.
-
-Impact:
-Phải hỏi lại 1–2 lần/task, có thể làm chậm thời gian bắt đầu công việc
-và tăng nguy cơ làm sai yêu cầu.
-
-Success metric:
-Giảm số lần hỏi lại xuống tối đa 1 lần/task.
-100% task có mục tiêu, đầu ra, deadline và người review.
-
-Non-AI alternative:
-Dùng checklist nhận task gồm mục tiêu, đầu ra, deadline, ưu tiên và người review.
-
-AI hypothesis:
-AI có thể đọc nội dung task, phát hiện thông tin còn thiếu và tạo danh sách
-câu hỏi làm rõ để intern gửi cho người giao việc.
-
-Quick gut:
-[ ] No AI / process fix
-[x] Rule
-[x] Workflow
-[ ] Agent
-[ ] Chưa biết
-```
-
-**Draft workflow Card #3:**
-
-```text
-CURRENT STATE — 10–20 phút hoặc lâu hơn
-
-[Nhận task] → [Tự diễn giải] → [Hỏi lại] →
-[Chờ phản hồi] → [Bắt đầu làm]  <-- bottleneck
-
-FUTURE STATE — 5–8 phút
-
-[Nhập nội dung task] → [AI kiểm tra thông tin thiếu] →
-[Intern xác nhận câu hỏi và gửi mentor]  <-- human boundary
-
-Fallback:
-Nếu AI bỏ sót thông tin, intern dùng checklist bắt buộc để kiểm tra
-mục tiêu, đầu ra, deadline, ưu tiên và người review.
-```
+> **Problem:** Intern phải hỏi lại yêu cầu 1–2 lần cho mỗi task vì thông tin ban đầu chưa đầy đủ.
+>
+> **Actor:** Intern và người giao việc hoặc mentor.
+>
+> **Bottleneck:** Thiếu mục tiêu, đầu ra, deadline và tiêu chí hoàn thành.
+>
+> **Impact:** Làm chậm thời gian bắt đầu và tăng nguy cơ làm sai task.
+>
+> **Success metric:** 100% task có mục tiêu, đầu ra, deadline và người review.
+>
+> **Non-AI alternative:** Dùng checklist nhận task.
+>
+> **AI hypothesis:** AI phát hiện thông tin còn thiếu và tạo danh sách câu hỏi làm rõ.
 
 ---
 
-### 2.3. Card muốn pitch nhất
+## 2.3. Card muốn pitch nhất
 
-**Card tôi muốn pitch nhất:**
+**Problem Card #1 — Viết báo cáo công việc hằng ngày**
 
-```text
-Problem Card #1 — Viết báo cáo công việc hằng ngày
-```
+Đây là workflow lặp lại mỗi ngày, dễ đo lường và có thể giảm từ 5–10 phút xuống còn 2–3 phút. AI chỉ tạo bản nháp; intern vẫn kiểm tra và chịu trách nhiệm gửi mentor.
 
-**Vì sao:**
+### Câu hỏi muốn nhóm challenge
 
-```text
-Đây là workflow lặp lại mỗi ngày, có mẫu tương đối cố định và dễ đo lường.
-Intern mất 5–10 phút/ngày, tương đương 25–50 phút/tuần.
-AI có thể tạo bản nháp, nhưng intern vẫn kiểm tra nội dung trước khi gửi mentor.
-```
+- Mentor có yêu cầu báo cáo theo đúng mẫu hiện tại không?
+- Làm thế nào để bảo đảm AI không tự thêm thông tin chưa thực hiện?
 
-**Câu hỏi tôi muốn nhóm challenge:**
+### AI phản biện Card
 
-```text
-Mentor có cần báo cáo theo đúng mẫu hiện tại hay có thể thay đổi định dạng?
-Làm thế nào để bảo đảm AI không tự thêm thông tin mà intern chưa thực hiện?
-```
+- **Điểm yếu:** Vấn đề có thể được giải quyết bằng template cố định, chưa chắc cần AI.
+- **Điều chỉnh:** Kết hợp template với AI; AI chỉ tạo bản nháp từ ghi chú, còn intern kiểm tra trước khi gửi.
 
-**AI phản biện Card:**
+## Self-check nộp phần 01
 
-- Điểm yếu AI chỉ ra: Vấn đề có thể được giải quyết bằng một template cố định, chưa chắc cần AI.
-- Tôi sửa gì: Đề xuất dùng workflow kết hợp template và AI; AI chỉ tạo bản nháp từ ghi chú, còn intern luôn kiểm tra và chịu trách nhiệm gửi báo cáo.
-
-### Self-check nộp phần 01
-
-- [x] Có 10 problems và top 3 Cards đủ field
-- [x] Mỗi Card có workflow trước/sau, bottleneck, metric và fallback
+- [x] Có 10 problems và top 3 Problem Cards
+- [x] Mỗi Card có bottleneck, metric và phương án thay thế
 - [x] Đã chọn 1 card pitch và câu hỏi challenge
-````
